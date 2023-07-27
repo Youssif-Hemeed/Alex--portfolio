@@ -1,0 +1,328 @@
+/* start hello========================= */
+/* x-small */
+@media all and (max-width: 575px) {
+  .hello-text,
+  .hello-img,
+  .hello-text .right-list,
+  .hello-text .left-list {
+    width: 100%;
+  }
+  .hello-text .button a {
+    display: inline-block;
+  }
+  .hello-text {
+    text-align: center;
+  }
+  .hello-text h2::before {
+    display: none;
+  }
+  .special-heading::after {
+    display: none;
+  }
+  .special-heading::before {
+    display: none;
+  }
+  }
+
+/* small */
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .hello-text,
+  .hello-img,
+  .hello-text .right-list,
+  .hello-text .left-list {
+    width: 100%;
+  }
+  .hello-text .button a {
+    display: inline-block;
+  }
+
+  .hello-text {
+    text-align: center;
+  }
+
+  .hello-text h2::before {
+    display: none;
+  }
+
+  .special-heading::after {
+    display: none;
+  }
+  .special-heading::before {
+    display: none;
+  }
+}
+/* medium  */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .hello-text,
+  .hello-img,
+  .hello-text .right-list,
+  .hello-text .left-list {
+    width: 100%;
+  }
+  .hello-text .button a {
+    display: inline-block;
+  }
+
+  .hello-text {
+    text-align: center;
+  }
+  .hello-text h2::before {
+    display: none;
+  }
+
+  .special-heading::after {
+    display: none;
+  }
+  .special-heading::before {
+    display: none;
+  }
+}
+
+/* end hello========================= */
+
+/* start services========================= */
+/* x-small */
+@media all and (max-width: 575px) {
+  .services-boxes .srv-box {
+    width: 100%;
+  }
+}
+/* small */
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .services-boxes .srv-box {
+    width: 100%;
+  }
+}
+/* medium  */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .services-boxes .srv-box {
+    width: 50%;
+  }
+}
+
+/* large */
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .services-boxes .srv-box {
+    width: 33.33%;
+  }
+}
+/* x-large  */
+@media all and (min-width: 1200px) {
+}
+
+/* end services========================= */
+
+/* start Portfolio========================= */
+/* x-small */
+@media all and (max-width: 575px) {
+  .sub-nav ul li {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .Portfolio-pics .pic {
+    width: 100%;
+  }
+}
+/* small */
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .sub-nav ul li {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .Portfolio-pics .pic {
+    width: 100%;
+  }
+}
+/* medium  */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .sub-nav ul li {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .Portfolio-pics .pic {
+    width: 50%;
+  }
+}
+
+/* large */
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .sub-nav ul li {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+}
+/* x-large  */
+@media all and (min-width: 1200px) {
+}
+
+/* end Portfolio========================= */
+/* start number========================= */
+/* x-small */
+@media all and (max-width: 575px) {
+  .num {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+/* small */
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .num {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+/* medium  */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .num {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+/* large */
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .num {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+/* end number========================= */
+
+/* start feedback========================= */
+/* x-small */
+@media all and (max-width: 575px) {
+  .Feedback .feed-box .feed-img {
+    width: 90%;
+  }
+}
+/* small */
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .Feedback .feed-box .feed-img {
+    width: 90%;
+  }
+}
+/* medium  */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .Feedback .feed-box .feed-img {
+    width: 90%;
+  }
+}
+
+/* large */
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .Feedback .feed-box .feed-img {
+    width: 50%;
+  }
+}
+
+
+/* end feedback========================= */
+
+/* start blog========================= */
+/* x-small */
+@media all and (max-width: 575px) {
+    .blog-box {
+     width: 100%;
+    }
+    .blog-box iframe {
+height: 50%;
+aspect-ratio: 2/1;
+    }
+}
+
+/* small */
+@media all and (min-width: 576px) and (max-width: 767px) {
+    .blog-box {
+        width: 100%;
+
+    }
+    .blog-box iframe {
+        height: 50%;
+        aspect-ratio: 2/1;
+    }
+}
+/* medium  */
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .blog-box {
+        width: 50%;
+    }
+
+    .blog-box img, 
+    .blog-box iframe {
+        height: 100%;
+        aspect-ratio: 2/1;
+    }
+}
+/* large */
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    .blog-box img, 
+    .blog-box iframe {
+        height: 100%;
+        aspect-ratio: 2/1;
+    }
+}
+/* x-large  */
+@media all and (min-width: 1200px) {
+    .blog-box img, 
+    .blog-box iframe {
+        height: 100%;
+        aspect-ratio: 2/1;
+    }
+
+}
+
+/* end blog========================= */
+
+/* start contact========================= */
+/* x-small */
+@media all and (max-width: 575px) {
+    .contact form .half div {
+        width: 100%;
+        padding: 0;
+    }
+    .contact form .area textarea {
+      
+        width: 100%;
+        }
+}
+
+/* small */
+@media all and (min-width: 576px) and (max-width: 767px) {
+    .contact form .half div {
+        width: 100%;
+        padding: 0;
+    }
+    .contact form .half div:first-child {
+        padding-left: 10px;
+      }
+      
+      .contact form .half div:last-child {
+        padding-right: 10px;
+      }
+      .contact form .area textarea {
+      
+    width: 100%;
+    }
+}
+/* medium  */
+@media all and (min-width: 768px) and (max-width: 991px) {
+ 
+    .contact form .half div {
+        width: 100%;
+        padding: 0;
+    }
+
+.contact form .area textarea {
+
+width: 100%;
+}
+}
+
+/* end contact========================= */
+
+
+
+
